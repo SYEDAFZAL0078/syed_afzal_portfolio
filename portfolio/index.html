@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Poppins:wght@300&display=swap"
+    rel="stylesheet">
+
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+  <title>portfolio</title>
+  <style>
+    .mb-100 {
+      margin-bottom: 20px;
+    }
+
+    .m-100 {
+      margin-top: 100px;
+      margin-bottom: 20px;
+      margin-left: 15%;
+    }
+
+    .blinking {
+      margin-top: 100px;
+      animation: blinkingText 2s infinite;
+    }
+
+    .logo {
+      width: 60px;
+      height: 60px;
+    }
+
+    .bi {
+
+      margin-right: 2px;
+    }
+
+    .bd {
+      border: 1px solid #64ffda;
+      border-radius: 2px;
+    }
+
+    .fs {
+      font-family: 'Calibri', 'Gill Sans',monospace;
+      color: #64ffda;
+
+    }
+
+    .navbar-toggler {
+      background-color: #64ffda !important;
+      color: #0a192f;
+
+    }
+
+
+    body {
+      background-color: #0a192f;
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+
+    .clr {
+      background-color: #0a192f;
+      margin-top: 30px;
+    }
+
+    .tc {
+      color: #ffffff;
+    }
+
+    .tc1 {
+      color: #ffffff;
+    }
+
+    .tc2 {
+      color: #64ffda;
+    }
+
+    .tc1:hover {
+      color: #64ffda;
+    }
+
+    .list-group {
+      margin-top: 30px;
+    }
+
+    @keyframes blinkingText {
+      0% {
+        color: #64ffda;
+        ;
+      }
+
+      100% {
+        color: #0a192f;
+      }
+    }
+
+
+    .nav-link:hover {
+      color: #64ffda;
+    }
+
+    .bd:hover {
+      color: black;
+      border: 1px solid rgb(47, 47, 47);
+      border-radius: 2px;
+      background-color: #64ffda;
+    }
+
+    .ddbt:hover {
+      color: black;
+
+      background-color: #64ffda;
+    }
+
+   
+    .smbtmain {
+      background-color: rgb(47, 47, 47);
+      color: #64ffda;
+    }
+    
+
+    .smbtmain:hover{
+      background-color: #64ffda;
+      color: black;
+    }
+    .smbtmain:active{
+      background-color: #64ffda;
+      color: black;
+    }
+    .smbtmain:active{
+      background-color: #64ffda;
+      color: black;
+    }
+    .smbtmain:active{
+      background-color: #64ffda;
+      color: black;
+    }
+    a:hover {
+      text-decoration: none;
+
+
+    }
+
+
+    .s-b {
+      margin-top: 30px;
+    }
+
+    .footer {
+      position: sticky;
+      bottom: 0px;
+      padding-top: 70px;
+
+
+    }
+
+    .bt-color {
+      font-family: 'Fira Code', monospace;
+      background-color: rgb(47, 47, 47);
+      border: 1px solid black;
+      border-radius: 10px;
+      color: #64ffda;
+      float: right;
+      margin-bottom: 50px;
+
+
+    }
+
+    .bt-color:hover {
+      color: #0a192f;
+      background-color: #64ffda;
+    }
+
+    .clr1,
+    .clr2,
+    .clr3 {
+      color: #64ffda;
+    }
+
+    .round {
+      border-radius: 20px
+    }
+
+    .port {
+      font-family: 'Caveat', cursive;
+      padding-top: 4px;
+      color: #64ffda;
+      font-size: 30px
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container ">
+    <nav class="navbar round navbar-expand-lg bg-dark mb-100 ">
+      <p class="port fs">Portfolio</p>
+      <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="glyphicon glyphicon-th"></span>
+
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link fs" href="skills.html">1.SKILLS</a>
+          </li>
+          <li class="nav-item dropdown fs">
+            <a class="nav-link dropdown-toggle fs" href="academic.html" id="navbarDropdownMenuLink" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              2.ACADEMICS
+            </a>
+            <div class="dropdown-menu bg-dark " aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item  fs ddbt" href="education.html">EDUCATION</a>
+              <hr>
+              <a class="dropdown-item fs ddbt" href="achievements.html">ACHIEVEMENTS</a>
+              <hr>
+              <a class="dropdown-item  fs ddbt" href="certifications.html">CERTIFICATIONS</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs" href="projects.html ">3.PROJECTS</a>
+          </li>
+
+        </ul>
+        <a href="https://drive.google.com/file/d/1y9uRPcCUunvq7HzWDT_HwWiGv1B3KzjY/view?usp=share_link" target="_blank"
+          class="btn btn-sm fs bd">4.RESUME</a>
+
+
+      </div>
+    </nav>
+
+    <pre class="text-center fs blinking">DREAM IT.WISH IT.DO IT</pre>
+
+    <div class="container square-box d-flex justify-content-center align-items-center">
+      <div class="card clr bg-dark tc" style="max-width: 750px;">
+        <div class="row no-gutters align-self-center">
+          <div class="col-md-4">
+            <img src="profile.jpg" class="card-img card-img-top" alt="My Photo">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body ">
+              <h3 class="card-title text-center fstext-dark fs">Hi,Iam SYED AFZAL</h3>
+              <!-- <hr class="bg-light"> -->
+
+              <p class="card-text text-justify"> Seeking a position as a Full Stack Developer where I can utilize my
+                skills and experience in developing web-based software. To obtain a position as a Full Stack Developer
+                where I can contribute my experience in developing high - performance, scalable web applications.
+              </p>
+              <!-- <hr class="bg-light"> -->
+              <p class="card-text  "><span class="tc2">Contact: </span> <br> Email:<a
+                  href="mailto:afzalprogramming@gmail.com" class=" ml-1 mt-2 "><span
+                    class="tc1">afzalprogramming@gmail.com</span> </a> <br>Mobile.No:<a href="tel:9360479341"
+                  class=" ml-1 mt-2"><span class="tc1">+91 9360479341</span></a> </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="container round square-box d-flex justify-content-center align-items-center">
+        <div class="list-group list-group-horizontal ">
+          <a href="https://www.linkedin.com/in/syed-afzal-f-342340218" target="_blank"
+            class="  list-group-item  list-group-item-action smbtmain"><span class=" smbt"> LinkedIn</span></a>
+          <a href="https://twitter.com/Syedafz32315617?t=8cIYjhrKaW2-GPt8gn6f8Q&s=09" target="_blank"
+            class=" list-group-item list-group-item-action smbtmain"><span class=" smbt"> Twitter</span></a>
+          <a href="https://github.com/SYEDAFZAL0078" target="_blank"
+            class="  list-group-item list-group-item-action smbtmain "><span class=" smbt"> GitHub</span></a>
+
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h3 class="fs  heading m-100"> Profile summary:</h3>
+  <div class="container text-center inside square-box  ">
+
+    <div class="table table-responsive square-box">
+      <table class="table table-bordered ">
+        <tbody>
+          <tr class="row1">
+            <th class="   fs  bg-dark clr1">DOB</th>
+            <td class="clr1">20/06/2002</td>
+
+          </tr>
+          <tr class="row2">
+            <th class="    fs bg-dark clr2">Living in</th>
+            <td class="clr2">Chennai</td>
+
+          </tr>
+          <tr class="row2">
+            <th class="    fs bg-dark clr2">10th / 12th</th>
+            <td class="clr2">84.5% / 62%</td>
+
+          </tr>
+          <tr class="row2">
+            <th class="    fs bg-dark clr2">College CGPA</th>
+            <td class="clr2">8.55</td>
+
+          </tr>
+          <tr class="row2">
+            <th class="    fs bg-dark clr2">No.Of.Achievements / Awards</th>
+            <td class="clr2">4* / 1*</td>
+
+          </tr>
+          <tr class="row2">
+            <th class="    fs bg-dark clr2">No.Of.Certifications</th>
+            <td class="clr2">4*</td>
+
+          </tr>
+          <tr class="row3">
+            <th class=" fs bg-dark clr3">No.Of.Projects</th>
+            <td class="clr3">3*</td>
+          </tr>
+
+          <tr class="row3">
+            <th class=" fs bg-dark clr3">Interested in</th>
+            <td class="clr3">Web developing & C++</td>
+          </tr>
+        </tbody>
+
+      </table>
+
+
+    </div>
+  </div>
+
+
+
+
+  <div class="s-b d-flex justify-content-center align-items-center">
+    <div class="container text-center  footer tc2">
+
+      <p>Designed and Built by Syed Afzal</p>
+
+    </div>
+  </div>
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
